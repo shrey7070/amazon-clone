@@ -29,14 +29,14 @@ function Home() {
         <div className="home__row">
           <Product
             id="3"
-            title="Fitbit Charge 4 Fitness and Activity Tracker with Built-in GPS, Heart Rate, Sleep & Swim Tracking, Black/Black, One Size (S &L Bands Included)"
+            title="Fitbit Charge 4 Fitness and Activity Tracker with Built-in GPS"
             image="https://images-na.ssl-images-amazon.com/images/I/311ThQv0JoL._AC_US160_.jpg"
             price={129}
             rating={4}
           />
           <Product
             id="4"
-            title="Fitbit Versa 2 Health and Fitness Smartwatch with Heart Rate, Music, Alexa Built-In, Sleep and Swim Tracking, Black/Carbon, One Size (S and L Bands Included)"
+            title="Fitbit Versa 2 Health and Fitness Smartwatch with Heart Rate, Music, Alexa Built-In"
             image="https://m.media-amazon.com/images/I/715obo1cz0L._AC_UY218_.jpg"
             price={178}
             rating={5}
