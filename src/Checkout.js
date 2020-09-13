@@ -5,7 +5,7 @@ import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 
 function Checkout() {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <div className="checkout">
       <div className="checkout__left">
@@ -16,7 +16,7 @@ function Checkout() {
         />
         <div>
           <h2 className="checkout_title">Your shopping basket</h2>
-          {basket?.length == 0 ? (
+          {basket?.length === 0 ? (
             <h3>No products in the basket</h3>
           ) : (
             basket.map((item) => (

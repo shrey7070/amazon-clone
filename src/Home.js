@@ -20,10 +20,10 @@ function Home() {
           />
           <Product
             id="2"
-            title="Vibram Men's KSO EVO Cross Training Shoe"
-            price={89.94}
-            image="https://m.media-amazon.com/images/I/81lNyen42CL._AC_UL320_.jpg"
-            rating={3}
+            title="SG Campus Batting Leg Guards"
+            price={1287}
+            image="https://m.media-amazon.com/images/I/711um-UeT7L._AC._SR360,460.jpg"
+            rating={5}
           />
         </div>
         <div className="home__row">
@@ -36,10 +36,10 @@ function Home() {
           />
           <Product
             id="4"
-            title="Fitbit Versa 2 Health and Fitness Smartwatch with Heart Rate, Music, Alexa Built-In"
-            image="https://m.media-amazon.com/images/I/715obo1cz0L._AC_UY218_.jpg"
-            price={178}
-            rating={5}
+            title="Azone Leather Raisco Bw01 Cricket Ball (White)"
+            image="https://m.media-amazon.com/images/I/4125d5RJ+zL._AC._SR360,460.jpg"
+            price={188}
+            rating={4}
           />
           <Product
             id="5"

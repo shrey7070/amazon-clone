@@ -37,17 +37,27 @@
   margin-top: 15px;
 }
 .login__signInButton {
-  background: #f0c14b;
-  border: 1px solid;
+  color: #0a0700 !important;
+  border: 1px solid !important;
   margin-top: 10px;
   width: 100%;
   height: 30px;
-  border-color: #a88734 #9c7e31 #846a29;
+}
+.login__signInButton:hover {
+  border: 1px solid black !important;
+  background-color: #a57f1d !important;
+  color: white !important;
 }
 .login__registerButton {
+  color: #0a0700 !important;
   border-radius: 2px;
   width: 100%;
   border: 1px solid;
   margin-top: 10px;
-  border-color: lightgray;
+  border: 1px solid black !important;
+}
+.login__registerButton:hover {
+  border: 1px solid black !important;
+  background-color: #a57f1d !important;
+  color: white !important;
 }

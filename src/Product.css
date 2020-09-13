@@ -1,7 +1,7 @@
 .product {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-end;
   margin: 10px;
   padding: 20px;
@@ -21,10 +21,16 @@
   display: flex;
 }
 .product > button {
-  background: #f0c14b;
+  width: 150px;
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
+}
+.product > button:hover {
+  background: #f0c14b !important;
+  border: 1px solid !important;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29 !important;
 }
 .product__price {
   margin-top: 5px;

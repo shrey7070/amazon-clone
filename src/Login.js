@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
+import { Button } from "@material-ui/core";
+
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPasword] = useState("");
@@ -54,21 +56,21 @@ function Login() {
             value={password}
             onChange={(e) => setPasword(e.target.value)}
           />
-          <button
+          <Button
+            className="login__signInButton"
             type="submit"
             onClick={signIn}
-            className="login__signInButton"
           >
-            SignIn
-          </button>
+            Sign In
+          </Button>
         </form>
         <p>
           By continuing, you agree to Amazon's Conditions of Use and Privacy
           Notice.
         </p>
-        <button onClick={register} className="login__registerButton">
+        <Button onClick={register} className="login__registerButton">
           Create your Amazon Account
-        </button>
+        </Button>
       </div>
     </div>
   );
